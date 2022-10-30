@@ -6,6 +6,7 @@ const registerController = (req, res) => {
     password,
     dob,
     email,
+    phone,
     address_1,
     address_2,
     city,
@@ -13,9 +14,14 @@ const registerController = (req, res) => {
     zip,
     country,
   } = req.body;
-  console.log(username);
-  console.log(password);
-  res.send({ username, password });
+
+  res.json({
+    username,
+    email,
+    phone,
+    dob,
+    zip
+  });
 };
 
 module.exports = registerController;
