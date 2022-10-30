@@ -1,0 +1,40 @@
+{
+  "name": "server-backend",
+  "version": "1.0.0",
+  "description": "Backend server using node express sequelize mysql API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhafez1978/full-stack-app.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "MHafez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhafez1978/full-stack-app/issues"
+  },
+  "homepage": "https://github.com/mhafez1978/full-stack-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
